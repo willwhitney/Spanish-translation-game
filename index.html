@@ -1,0 +1,116 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Ready, Set, Translate!</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="css/bin/styles.css" rel="stylesheet" />
+  <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.17.custom.css" rel="stylesheet" />
+  <link type="text/css" href="css/lib/translate_game.css" rel="stylesheet" />
+
+
+  <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/lib/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://microsoft.com/ie">Upgrade to a newer browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true"> install Google Chrome Frame</a> to experience this site. </p>
+  <![endif]-->
+
+  <header>
+  </header>
+
+  <div role="main" class="container">
+	  
+<!-- ############ HEADER ################ -->
+	  
+	  <div class="row">
+      <div class="span12">
+        <h1 id="title">Translate from <span id="from_lang">Spanish</span> to <span id="to_lang">English</span></h1>
+      </div>
+    </div>
+	  
+	  <div class="row" id="headers">
+      <div class="span4">
+        <h2>Spanish</h2>
+      </div>
+
+      <div class="span4">
+        <h2>English</h2>
+      </div>
+    
+      <div class="span4">
+        <h2>Answer</h2>
+      </div>
+    </div>
+    
+<!-- ############ Entry Line ################ -->
+    
+    <div class="row" id="entry">
+      <div class="span4">
+        <h2 id="word_to_translate"></h2>
+      </div>
+    
+      <div class="span4">
+        <input type="text" name="word_input" id="word_input"/>
+      </div>
+    
+      <div class="span4">
+        <button class="btn" id="submit">See Answer</button>
+      </div>
+    </div>
+    
+<!-- ############ STATIC ENTRIES ################ -->
+    
+    <div class="row correct">
+      <div class="span4">
+        <h2>calabaza</h2>
+      </div>
+
+      <div class="span4">
+        <h2>pumpkin</h2>
+      </div>
+    
+      <div class="span4">
+        <h2><span class="ui-icon ui-icon-check"></span></h2>
+      </div>
+    </div>
+    
+    <div class="row wrong">
+      <div class="span4">
+        <h2 >postmodernidad</h2>
+      </div>
+    
+      <div class="span4">
+        <h2 class="user">phone</h2>
+      </div>
+    
+      <div class="span4">
+        <h2>postmodernism</h2>
+      </div>
+    </div>
+	  
+  </div>
+
+  <footer>
+  </footer>
+
+  <!-- JavaScript at the bottom for fast page loading -->
+  <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+  <script type="text/javascript" src="js/lib/translate_game.js"></script>
+  <script type="text/javascript" src="dicts.json"></script>
+</body>
+</html>

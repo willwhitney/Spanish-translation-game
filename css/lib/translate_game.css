@@ -1,0 +1,49 @@
+html {
+    background-color: #eee;
+}
+
+body {
+  background-color: #eee;
+}
+
+#title {
+  color:#777;
+}
+
+#from_lang, #to_lang {
+  color:black;
+}
+
+#entry {
+  margin-bottom:25px;
+}
+
+#headers > div > h2{
+  color:#777;
+}
+
+#word_to_translate {
+  color:black;
+}
+
+.correct > div > h2{
+  color: blue;
+}
+
+.wrong > div > h2 {
+  color: red;
+}
+
+.user {
+  text-decoration:line-through;
+}
+
+.row {
+  padding-top:10px;
+}
+
+#title {
+  margin-bottom:20px;
+}
+
+/* Your CSS here */

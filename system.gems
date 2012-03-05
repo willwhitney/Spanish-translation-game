@@ -1,0 +1,6 @@
+# system.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
+foreman -v0.26.1
+sass -v3.1.15
+term-ansicolor -v1.0.7
+thor -v0.14.6
+watchr -v0.7
